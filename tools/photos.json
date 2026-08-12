@@ -1,0 +1,77 @@
+{
+  "_comment": "Single source of truth for every photo slot on the site. `tools/generate-placeholders.mjs` turns each entry into assets/img/<id>.svg. Replace those files with real photos (see README).",
+  "tones": {
+    "golden": { "angle": 155, "stops": ["#F6C98A 0", "#E39A5E 0.42", "#9E5B45 1"] },
+    "garden": { "angle": 160, "stops": ["#CFDCB6 0", "#8FAE84 0.45", "#4E6B57 1"] },
+    "indoor": { "angle": 150, "stops": ["#FBEDE4 0", "#E5C8BF 0.46", "#A98089 1"] },
+    "dusk":   { "angle": 165, "stops": ["#F3B79A 0", "#B8768C 0.46", "#4C4468 1"] },
+    "blush":  { "angle": 145, "stops": ["#FBE2DE 0", "#EFBCC0 0.50", "#C1808F 1"] },
+    "shade":  { "angle": 160, "stops": ["#DCE4E6 0", "#A9B7BC 0.45", "#5F6E74 1"] },
+    "sand":   { "angle": 150, "stops": ["#F7E7CD 0", "#DEC29B 0.48", "#A38566 1"] },
+    "plum":   { "angle": 165, "stops": ["#E8CBD9 0", "#B0799B 0.48", "#5B3352 1"] }
+  },
+  "ratios": {
+    "wide": [1600, 900],
+    "std":  [1500, 1000],
+    "sq":   [1200, 1200],
+    "tall": [1100, 1375],
+    "port": [1000, 1500]
+  },
+  "photos": [
+    { "id": "hero-main",         "tone": "golden", "ratio": "tall", "brief": "Hero shot — family walking together, backlit golden hour, New Farm Park" },
+    { "id": "hero-detail",       "tone": "blush",  "ratio": "sq",   "brief": "Detail — baby's hand in mum's" },
+
+    { "id": "feat-couple-dusk",  "tone": "dusk",   "ratio": "wide", "brief": "Couple on the sand at dusk, Shorncliffe" },
+    { "id": "feat-kids-grass",   "tone": "garden", "ratio": "tall", "brief": "Kids running through long grass" },
+    { "id": "feat-newborn-dad",  "tone": "blush",  "ratio": "tall", "brief": "Newborn asleep on dad's chest" },
+    { "id": "feat-maternity-sun","tone": "sand",   "ratio": "tall", "brief": "Maternity silhouette, low sun" },
+    { "id": "feat-toddler-window","tone": "indoor","ratio": "tall", "brief": "Toddler and mum by the window" },
+    { "id": "feat-three-gen",    "tone": "shade",  "ratio": "wide", "brief": "Three generations, wide, under the fig trees" },
+
+    { "id": "intro-portrait",    "tone": "indoor", "ratio": "port", "brief": "Portrait of the photographer, camera in hand, warm indoor light" },
+
+    { "id": "svc-family",        "tone": "golden", "ratio": "tall", "brief": "Family of four laughing, park" },
+    { "id": "svc-couples",       "tone": "dusk",   "ratio": "tall", "brief": "Couple close together, dusk light" },
+    { "id": "svc-maternity",     "tone": "sand",   "ratio": "tall", "brief": "Maternity, hand on bump, beach" },
+    { "id": "svc-newborn",       "tone": "blush",  "ratio": "tall", "brief": "Newborn curled up, natural window light" },
+
+    { "id": "quote-hands",       "tone": "golden", "ratio": "sq",   "brief": "The photo she's talking about — small hand in a bigger one" },
+
+    { "id": "insta-01",          "tone": "golden", "ratio": "sq" },
+    { "id": "insta-02",          "tone": "garden", "ratio": "sq" },
+    { "id": "insta-03",          "tone": "blush",  "ratio": "sq" },
+    { "id": "insta-04",          "tone": "dusk",   "ratio": "sq" },
+    { "id": "insta-05",          "tone": "sand",   "ratio": "sq" },
+    { "id": "insta-06",          "tone": "indoor", "ratio": "sq" },
+
+    { "id": "pf-01", "tone": "golden", "ratio": "tall", "brief": "Family walking away from camera, backlit" },
+    { "id": "pf-02", "tone": "blush",  "ratio": "sq",   "brief": "Newborn feet, wrapped" },
+    { "id": "pf-03", "tone": "dusk",   "ratio": "wide", "brief": "Couple walking the sandbar at low tide" },
+    { "id": "pf-04", "tone": "sand",   "ratio": "port", "brief": "Maternity, dress catching the wind" },
+    { "id": "pf-05", "tone": "shade",  "ratio": "tall", "brief": "Headshot, open shade, soft grey" },
+    { "id": "pf-06", "tone": "garden", "ratio": "sq",   "brief": "Two kids mid-chase, long grass" },
+    { "id": "pf-07", "tone": "indoor", "ratio": "tall", "brief": "Dad holding newborn by the window" },
+    { "id": "pf-08", "tone": "shade",  "ratio": "wide", "brief": "Three generations under the fig trees" },
+    { "id": "pf-09", "tone": "plum",   "ratio": "port", "brief": "Engagement, forehead to forehead" },
+    { "id": "pf-10", "tone": "plum",   "ratio": "tall", "brief": "Bump detail, hands, low light" },
+    { "id": "pf-11", "tone": "indoor", "ratio": "sq",   "brief": "Personal brand portrait, warm interior" },
+    { "id": "pf-12", "tone": "indoor", "ratio": "tall", "brief": "Pancake morning, kitchen chaos" },
+    { "id": "pf-13", "tone": "golden", "ratio": "wide", "brief": "Couple laughing, sun flare through trees" },
+    { "id": "pf-14", "tone": "blush",  "ratio": "sq",   "brief": "Big sister meeting the baby" },
+    { "id": "pf-15", "tone": "sand",   "ratio": "port", "brief": "Graduation portrait, late light" },
+
+    { "id": "srv-family",     "tone": "golden", "ratio": "tall", "brief": "Family session — parents swinging a child between them" },
+    { "id": "srv-couples",    "tone": "dusk",   "ratio": "tall", "brief": "Couples session — dancing on the sand, backlit" },
+    { "id": "srv-maternity",  "tone": "sand",   "ratio": "tall", "brief": "Maternity session — profile against the water" },
+    { "id": "srv-newborn",    "tone": "blush",  "ratio": "tall", "brief": "Newborn session — baby asleep on a bed, window light" },
+    { "id": "srv-portraits",  "tone": "shade",  "ratio": "tall", "brief": "Portrait session — relaxed headshot in open shade" },
+
+    { "id": "about-portrait", "tone": "indoor", "ratio": "port", "brief": "Main portrait — photographer at home, camera in lap, warm light" },
+    { "id": "about-candid",   "tone": "garden", "ratio": "sq",   "brief": "Candid — mid-session, laughing behind the camera" },
+    { "id": "about-quote",    "tone": "shade",  "ratio": "sq",   "brief": "Grandfather and granddaughter, hands, quiet moment" },
+
+    { "id": "book-lastlight", "tone": "golden", "ratio": "wide", "brief": "Wide shot — family at the end of a session, sun almost down" },
+
+    { "id": "contact-river",  "tone": "dusk",   "ratio": "sq",   "brief": "Location shot — the river at dusk, where a lot of sessions end up" }
+  ]
+}

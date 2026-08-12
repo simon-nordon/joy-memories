@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Wide shot — family at the end of a session, sun almost down">
+  <defs>
+    <linearGradient id="tone" x1="0.2887" y1="0.0468" x2="0.7113" y2="0.9532"><stop offset="0" stop-color="#F6C98A"/><stop offset="0.42" stop-color="#E39A5E"/><stop offset="1" stop-color="#9E5B45"/></linearGradient>
+    <radialGradient id="key" cx="28%" cy="18%" r="72%">
+      <stop offset="0" stop-color="#fff" stop-opacity=".42"/>
+      <stop offset="0.58" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#tone)"/>
+  <rect width="1600" height="900" fill="url(#key)"/>
+  <rect width="1600" height="900" filter="url(#grain)" opacity=".14"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#fff">
+    <text x="72" y="103" font-size="31" letter-spacing="4.96" opacity=".62">PLACEHOLDER</text>
+    <text text-anchor="middle" font-size="53" letter-spacing="6.89" opacity=".95" style="paint-order:stroke" stroke="rgba(0,0,0,.22)" stroke-width="7.42"><tspan x="800" y="374.7">Wide shot — family at the</tspan><tspan x="800" y="450.0">end of a session, sun</tspan><tspan x="800" y="525.3">almost down</tspan></text>
+    <text x="72" y="836" font-size="31" letter-spacing="4.96" opacity=".55">BOOK-LASTLIGHT · 1600×900</text>
+  </g>
+</svg>

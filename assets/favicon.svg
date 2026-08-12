@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Joy Memories">
+  <rect width="64" height="64" rx="6" fill="#EBE1DF"/>
+  <rect x="9" y="9" width="46" height="46" fill="#FFFCFB"/>
+  <rect x="13" y="13" width="38" height="30" fill="#7A2E4E"/>
+  <circle cx="45" cy="38" r="3" fill="#FF7A18"/>
+  <text x="32" y="35" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#FFFCFB">J</text>
+</svg>

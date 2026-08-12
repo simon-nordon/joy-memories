@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="1200" height="1200" role="img" aria-label="Candid — mid-session, laughing behind the camera">
+  <defs>
+    <linearGradient id="tone" x1="0.3290" y1="0.0302" x2="0.6710" y2="0.9698"><stop offset="0" stop-color="#CFDCB6"/><stop offset="0.45" stop-color="#8FAE84"/><stop offset="1" stop-color="#4E6B57"/></linearGradient>
+    <radialGradient id="key" cx="28%" cy="18%" r="72%">
+      <stop offset="0" stop-color="#fff" stop-opacity=".42"/>
+      <stop offset="0.58" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="1200" fill="url(#tone)"/>
+  <rect width="1200" height="1200" fill="url(#key)"/>
+  <rect width="1200" height="1200" filter="url(#grain)" opacity=".14"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#fff">
+    <text x="54" y="77" font-size="23" letter-spacing="3.68" opacity=".62">PLACEHOLDER</text>
+    <text text-anchor="middle" font-size="40" letter-spacing="5.20" opacity=".95" style="paint-order:stroke" stroke="rgba(0,0,0,.22)" stroke-width="5.60"><tspan x="600" y="571.6">Candid — mid-session,</tspan><tspan x="600" y="628.4">laughing behind the camera</tspan></text>
+    <text x="54" y="1152" font-size="23" letter-spacing="3.68" opacity=".55">ABOUT-CANDID · 1200×1200</text>
+  </g>
+</svg>
